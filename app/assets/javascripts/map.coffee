@@ -3,7 +3,7 @@ jQuery ->
     marker = null
     lat_field = $('#place_latitude')
     lng_field = $('#place_longitude')
-    window.initMap = ->
+    initMap = ->
         if $('#map').size() > 0
             #Defining settings for map
             mapOptions =
